@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Devavrt1234_notes_app_cicd_1739210660749-push-trigger-input-set
+  identifier: Build_Devavrt1234_notes_app_cicd_1739210660749pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Devavrt1234_notes_app_cicd_1739210660749
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
